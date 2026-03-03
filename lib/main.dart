@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_practice/provider/screens/screen_three.dart';
-import 'package:riverpod_practice/provider/screens/screen_two.dart';
+import 'package:riverpod_practice/screens/item_screen.dart';
+import 'package:riverpod_practice/screens/screen_three.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: ScreenThree(),
+        home: ItemScreen(),
       ),
     );
   }
